@@ -1,0 +1,9 @@
+Audi A6,2271,300
+Volkswagen Golf,2155,200
+Hyundai Tucson,4321,300
+Audi Q2,2171,300
+Volkswagen Golf,2255,200
+Hyundai Santa Fe,4121,350
+Audi A6,2766,300
+Volkswagen Golf,2355,200
+Hyundai Tucson,4321,300

@@ -1,0 +1,11 @@
+Audi A4,1231,200
+Honda 5,1232,200
+Mercedes 9,1234,200
+Audi A4,1234,300
+Honda 2,1232,300
+Mercedes 9,1233,300
+Audi A3,1234,400
+Audi Q7,1234,400
+Honda 5,1234,400
+Honda 7,1234,400
+Mercedes 6,1234,400
