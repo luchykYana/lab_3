@@ -46,15 +46,8 @@ public class TaskManager {
         System.out.println("You choose these models: " + userModels);
 
         for (var item : cars.keySet()) {
-            Iterator<Car> iterator = cars.get(item).iterator();
 
-            while (iterator.hasNext()) {
-                Car c = iterator.next();
-
-                if (userModels.contains(c.getModel())) {
-                    iterator.remove();
-                }
-            }
+            cars.get(item).removeIf(c -> userModels.contains(c.getModel()));
         }
 
         DisplayHelper.displayFirstTask(cars);
