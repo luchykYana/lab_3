@@ -32,7 +32,7 @@ public class TaskManager {
 
     static void secondTask() {
         HashSet<String> models = new HashSet<>();
-        HashSet<String> userModels = new HashSet<>();
+        HashSet<String> userModels;
 
         for (var i : cars.keySet()) {
             for (Car car : cars.get(i)) {
@@ -91,5 +91,6 @@ public class TaskManager {
                 " cars");
 
         DisplayHelper.displayThirdTask(carsInRange);
+        InputHelper.waitBeforeMenu();
     }
 }
